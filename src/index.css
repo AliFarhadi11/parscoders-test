@@ -1,0 +1,87 @@
+/* --- FONTS  --- */
+@font-face {
+  font-family: "Yekan Bakh";
+  src:
+    url("./assets/fonts/yekan-bakh/woff2/YekanBakh-Regular.woff2")
+      format("woff2"),
+    url("./assets/fonts/yekan-bakh/woff/YekanBakh-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Yekan Bakh";
+  src:
+    url("./assets/fonts/yekan-bakh/woff2/YekanBakh-Bold.woff2") format("woff2"),
+    url("./assets/fonts/yekan-bakh/woff/YekanBakh-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Yekan Bakh";
+  src:
+    url("./assets/fonts/yekan-bakh/woff2/YekanBakh-ExtraBlack.woff2")
+      format("woff2"),
+    url("./assets/fonts/yekan-bakh/woff/YekanBakh-ExtraBlack.woff")
+      format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Yekan Bakh FaNum Font Family */
+@font-face {
+  font-family: "Yekan Bakh FaNum";
+  src:
+    url("./assets/fonts/yekan-bakh-fanum/woff2/YekanBakhFaNum-Regular.woff2")
+      format("woff2"),
+    url("./assets/fonts/yekan-bakh-fanum/woff/YekanBakhFaNum-Regular.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Yekan Bakh FaNum";
+  src:
+    url("./assets/fonts/yekan-bakh-fanum/woff2/YekanBakhFaNum-Bold.woff2")
+      format("woff2"),
+    url("./assets/fonts/yekan-bakh-fanum/woff/YekanBakhFaNum-Bold.woff")
+      format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Yekan Bakh FaNum";
+  src:
+    url("./assets/fonts/yekan-bakh-fanum/woff2/YekanBakhFaNum-ExtraBlack.woff2")
+      format("woff2"),
+    url("./assets/fonts/yekan-bakh-fanum/woff/YekanBakhFaNum-ExtraBlack.woff")
+      format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* GLOBAL STYLES */
+button,
+a,
+input {
+  font-family: "Yekan Bakh";
+}
+
+body {
+  min-height: 100dvh;
+  background: #f4f4f8;
+  font-family: "Yekan Bakh";
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+  --font-yekan-bakh: "Yekan Bakh";
+  --font-yekan-bakhFaNum: "Yekan Bakh FaNum";
+
+  --color-body: #f4f4f8;
+}
